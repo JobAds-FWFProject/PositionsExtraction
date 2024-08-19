@@ -1,7 +1,7 @@
 # PositionsExtraction
 Code and data accompanying the paper 'Extracting position titles from unstructured historical job advertisements' that deals witih extracting job titles from historical job advertisements. The advertisements are predominantly in German and spanning from 1850-1950. The code contains the entire pipeline for training model (NER approach), resp. establishing the rules (rule-based and dictionary-based approach). 
 
-Models performance is as follows:
+Models performance on testing dataset is as follows:
 
 | Method | Accuracy |
 |--------|----------|
