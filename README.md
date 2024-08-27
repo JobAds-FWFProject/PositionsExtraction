@@ -5,12 +5,12 @@ Models performance on testing dataset is as follows:
 
 | Method | F1 Score | Recall | Precision |
 |--------|----------|--------|-----------|
-| Dictionary-based approach | 0.615 | 0.646 | 0.617 |
+| Dictionary-based approach | 0.632 | 0.646 | 0.617 |
 | Rule-based approach | 0.69 | 0.613 | 0.789 |
 | NER approach (CPU) | 0.884 | 0.866 | 0.903 |
 | NER approach (GPU) | 0.944 | 0.932 | 0.956 |
-| Text Generation approach (segment) | 0.916 | | |
-| Text Generation approach (whole ad) | 0.893 | | |
+| Text Generation approach (segment) | 0.92 | 0.918 | 0.922 |
+| Text Generation approach (whole ad) | 0.902 | 0.894 | 0.909 |
 
 
 The model trained on GPU cannot be uploaded because of its size, however, we are sharing the model trained on CPU that reaches 87.42% accuracy in identifying job titles in historical job advertisements. For all details, please see the paper.
